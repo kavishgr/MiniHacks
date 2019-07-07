@@ -33,8 +33,8 @@ myBlog = "/Users/kavish/Documents/GitHub/kavishgr.github.io/"
 #######################################################################################################
 
 def moveToPosts():
-    global newPost
-    global blogPostDate
+#     global newPost
+#     global blogPostDate
 
     postInDrafts = len(newPost)
 
@@ -58,7 +58,7 @@ def moveToPosts():
 
 def runGit(fullPath, newPost):
 
-    global myBlog
+#     global myBlog
 
     commitMsg = "'Testing'"
     os.chdir(myBlog)
@@ -72,8 +72,8 @@ def runGit(fullPath, newPost):
         run = sp.run(cmd, shell=True) 
 
 def postStatus():
-    global newPost
-    global today
+#     global newPost
+#     global today
     urlDate = f"{today.year}/{today:%m}/{today:%d}/"
     # Replace URL
     blogPostUrl = f'https://kavishgr.github.io/articles/' + urlDate + str(newPost.strip('.md')) + '.html'
