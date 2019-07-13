@@ -13,8 +13,7 @@
 #######################################################################################################
 
 import subprocess as sp
-import psutil
-import socket
+import psutil, socket
 
 mem = psutil.virtual_memory()
 total = mem.total >> 20
