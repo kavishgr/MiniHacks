@@ -17,9 +17,7 @@
 
 import subprocess as sp
 from datetime import date
-import requests
-import time
-import os
+import requests, time, os
 
 ## Replace path 
 
