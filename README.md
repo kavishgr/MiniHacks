@@ -7,3 +7,5 @@
 - [NagiosInstall.py](https://github.com/kavishgr/My-Python-Scripts/blob/master/NagiosInstall.py) - Nagios Core automated installation on CentOS 7.
 
 - [hostbyname.py](https://github.com/kavishgr/My-Python-Scripts/blob/master/hostbyname.py) - Iterate over a list of domains to find its IP addresses from a file. **Usage:** python3 hostbyname.py [file]
+
+- [undo_copy.py](https://github.com/kavishgr/PyHacks/blob/master/undo_copy.py) - Reverse the action of `cp`.
