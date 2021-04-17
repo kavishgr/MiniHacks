@@ -5,7 +5,7 @@ from pathlib import Path
 import subprocess as sp
 import os
 
-# directory where you store your comic books
+# directory where comic books are stored
 comic_home_dir = "/Users/kavish/Downloads/comic/comics/"
 
 url = argv[1]
