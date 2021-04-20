@@ -41,10 +41,14 @@ def downloadtest(links, rangearg):
     toN = 0
     if rangearg:
         fromN, toN = calculate_range(rangearg)
-    links = links[fromN:toN]
-    for link in links:
-        fromN += 1
-        sp.run(f"wget -O {fromN}.cbr {link} -q --show-progress", shell=True)
+        links = links[fromN:toN]
+        for link in links:
+            fromN += 1
+            sp.run(f"wget -O {fromN}.cbr {link} -q --show-progress", shell=True)
+    else:
+        for link in links:
+            fromN += 1
+            sp.run(f"wget -O {fromN}.cbr {link} -q --show-progress", shell=True)
 
 
 #### MAIN ####
@@ -63,8 +67,6 @@ url =  args.url
 mkdir(url)
 get_all_links(url)
 downloadtest(links, rangearg)
-
-
 
 
 
