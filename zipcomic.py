@@ -45,6 +45,8 @@ def downloadtest(links, rangearg):
         for link in links:
             fromN += 1
             sp.run(f"wget -O {fromN}.cbr {link} -q --show-progress", shell=True)
+    elif len(links) == 1:
+        sp.run(f"wget -O full.cbr {links[0]} -q --show-progress", shell=True)
     else:
         for link in links:
             fromN += 1
@@ -53,10 +55,8 @@ def downloadtest(links, rangearg):
 
 #### MAIN ####
 
-comic_home_dir = "/Users/kavish/Downloads/comic/comics/"
-links = []
-
 parser = argparse.ArgumentParser()
+# parser.add_argument("-d", "--dir", help="Specify a Directory to store the downloaded files", type=str)
 parser.add_argument("-u", "--url", help="Specify a url", type=str)
 parser.add_argument("-r", "--range", help="Specify a range. E.g 3:11", type=str)
 args = parser.parse_args()
@@ -64,9 +64,9 @@ args = parser.parse_args()
 rangearg = args.range
 url =  args.url
 
+comic_home_dir = "/Users/kavish/Downloads/comic/comics/"
+links = []
+
 mkdir(url)
 get_all_links(url)
 downloadtest(links, rangearg)
-
-
-
