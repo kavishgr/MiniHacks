@@ -11,3 +11,8 @@
 - [undo_copy.py](https://github.com/kavishgr/PyHacks/blob/master/undo_copy.py) - Reverse the action of `cp`.
 
 - [zipcomic.py](https://github.com/kavishgr/PyHacks/blob/master/undo_copy.py) - Comic Book downloader for **zipcomic.com**
+
+```shell
+Usage: python3 zipcomic.py -u "https://www.zipcomic.com/a-lucky-luke-adventure"
+	   python3 zipcomic.py -u "https://www.zipcomic.com/a-lucky-luke-adventure" -r 3:8
+```
