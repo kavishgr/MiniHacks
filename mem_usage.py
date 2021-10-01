@@ -1,7 +1,6 @@
 # Author      : Kavish Gour
 #
-# Email       : kavishgr@protonmail.com // kavishgour1@gmail.com
-#
+# Email       : kavishgr@protonmail.com 
 # Description : Print the system's memory usage, and if usage is >= 90% print a warning. 
 #               Can be executed as ad-hoc command for Ansible tasks.
 #
