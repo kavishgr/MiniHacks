@@ -8,9 +8,9 @@
 
 - [hostbyname.py](https://github.com/kavishgr/MiniHacks/blob/master/hostbyname.py) - Iterate over a list of domains to find its IP addresses from a file. **Usage:** python3 hostbyname.py [file]
 
-- [undo_copy.py](https://github.com/kavishgr/MiniHacks/blob/master/undo_copy.py) - Reverse the action of `cp`.
+- [undo_copy.py](https://github.com/kavishgr/MiniHacks/blob/master/undo_copy.py) - Reverse the action of `cp` in Python.
 
-- [undo_copy.go](https://github.com/kavishgr/MiniHacks/blob/master/undo_copy.go) - Reverse the action of `cp`.
+- [undo_copy.go](https://github.com/kavishgr/MiniHacks/blob/master/undo_copy.go) - Reverse the action of `cp` in Go.
 
 - [zipcomic.py](https://github.com/kavishgr/MiniHacks/blob/master/zipcomic.py) - Comic Book downloader for **zipcomic.com**
 
@@ -18,3 +18,5 @@
 Usage: python3 zipcomic.py -u "https://www.zipcomic.com/a-lucky-luke-adventure"
 	   python3 zipcomic.py -u "https://www.zipcomic.com/a-lucky-luke-adventure" -r 3:8
 ```
+
+- [zipcomic.go](https://github.com/kavishgr/ZipComic-Downloader) - The Go version.
