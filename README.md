@@ -24,11 +24,13 @@ python3 zipcomic.py -u "https://www.zipcomic.com/a-lucky-luke-adventure" -r 3:8
 - [artsydl.go](https://github.com/kavishgr/MiniHacks/blob/master/artsydl.go)  (download all jpegs for an entire album)
 
 ```shell
-artsydl.go "https://www.artsy.net/show/crane-kalman-brighton-slim-aarons-summer"
+artsydl.go "https://www.artsy.net/show/danziger-gallery-tod-papageorge-on-the-acropolis"
 ```
 
 - [artsydl.py](https://github.com/kavishgr/MiniHacks/blob/master/artsydl.py) (depends on `wget`)
 
 ```shell
-python3 artsydl.py "https://www.artsy.net/show/crane-kalman-brighton-slim-aarons-summer"
+python3 artsydl.py "https://www.artsy.net/show/danziger-gallery-tod-papageorge-on-the-acropolis"
 ```
+
+
