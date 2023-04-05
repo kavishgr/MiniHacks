@@ -15,8 +15,20 @@
 - [zipcomic.py](https://github.com/kavishgr/MiniHacks/blob/master/zipcomic.py) - Comic Book downloader for **zipcomic.com**
 
 ```shell
-Usage: python3 zipcomic.py -u "https://www.zipcomic.com/a-lucky-luke-adventure"
-	   python3 zipcomic.py -u "https://www.zipcomic.com/a-lucky-luke-adventure" -r 3:8
+Usage: python3 zipcomic.py -u "https://www.zipcomic.com/a-lucky-luke-adventure" (download all available comics)
+Supply a range : python3 zipcomic.py -u "https://www.zipcomic.com/a-lucky-luke-adventure" -r 3:8
 ```
 
 - [zipcomic.go](https://github.com/kavishgr/ZipComic-Downloader) - The Go version.
+
+- [artsydl.go](https://github.com/kavishgr/MiniHacks/blob/master/artsydl.go)
+
+```shell
+Usage: artsydl.go "https://www.artsy.net/show/crane-kalman-brighton-slim-aarons-summer" (download all jpegs for the entire album)
+```
+
+- [artsydl.py](https://github.com/kavishgr/MiniHacks/blob/master/artsydl.py)
+
+```shell
+Usage: python3 artsydl.py "https://www.artsy.net/show/crane-kalman-brighton-slim-aarons-summer" (depends on `wget`)
+```
