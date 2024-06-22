@@ -12,16 +12,7 @@
 
 - [undo_copy.go](https://github.com/kavishgr/MiniHacks/blob/master/undo_copy.go) - Reverse the action of `cp` in Go.
 
-- [zipcomic.py](https://github.com/kavishgr/MiniHacks/blob/master/zipcomic.py) - Comic Book downloader for **zipcomic.com** (`-r` for range)
-
-```shell
-python3 zipcomic.py -u "https://www.zipcomic.com/a-lucky-luke-adventure"
-python3 zipcomic.py -u "https://www.zipcomic.com/a-lucky-luke-adventure" -r 3:8
-```
-
-- [zipcomic.go](https://github.com/kavishgr/ZipComic-Downloader) - The Go version.
-
-- [artsydl.go](https://github.com/kavishgr/MiniHacks/blob/master/artsydl.go)  - Download all jpegs for an entire album. The excessive use of hashmaps and channels could potentially complicate future changes. However, it currently functions as intended.
+- [artsydl.go](https://github.com/kavishgr/MiniHacks/blob/master/artsydl.go)  - Download all jpegs for an entire album. The excessive use of hashmaps and channels could potentially complicate future changes. However, I'm not sure if it still works. Was just learning.
 
 ```shell
 artsydl.go "https://www.artsy.net/show/danziger-gallery-tod-papageorge-on-the-acropolis"
