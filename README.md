@@ -27,7 +27,7 @@ python3 artsydl.py "https://www.artsy.net/show/danziger-gallery-tod-papageorge-o
 - [blog-title.py](https://github.com/kavishgr/MiniHacks/blob/master/blog-title.py) - Converts a blog post title to a URL-friendly format by making it lowercase and replacing spaces with hyphens.
 
 ```shell
-➜  ~ blog-title.py "dummy blog post title"
+➜  ~ blog-title.py "Dummy Blog Post Title"
 dummy-blog-post-title
 ```
 
