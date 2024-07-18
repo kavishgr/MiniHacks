@@ -2,10 +2,11 @@ from ebooklib import epub
 import os, re
 
 #string to remove from filename
-#pattern = re.compile(r"\(for Josianne Machongpi\)")
+#pattern = re.compile(r"\(test string\)")
 
 # if there are multiples patterns
 # make a list
+
 todel = "("text_to_remove_from_title")"
 
 for file in os.listdir():

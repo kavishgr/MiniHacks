@@ -1,16 +1,3 @@
-# Author      : Kavish Gour
-#
-# Email       : kavishgr@protonmail.com 
-# Description : Print the system's memory usage, and if usage is >= 90% print a warning. 
-#               Can be executed as ad-hoc command for Ansible tasks.
-#
-# Usage       : python3 memusage.py
-#               
-
-#######################################################################################################
-#                                         IMPORTS                                                     #
-#######################################################################################################
-
 import subprocess as sp
 import psutil, socket
 
@@ -18,10 +5,6 @@ mem = psutil.virtual_memory()
 total = mem.total >> 20
 available_mem = mem.available >> 20
 percent_mem = str(mem.percent)
-
-#######################################################################################################
-#                                         FUNCTIONS                                                   #
-#######################################################################################################
 
 def host_id():
     hostname = socket.gethostname()
