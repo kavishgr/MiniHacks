@@ -7,3 +7,5 @@ dummy-blog-post-title
 ➜  ~ blog-title.py "iptables-- and--- localhost"
 iptables-and-localhost
 ```
+
+Bash implementation - `blog-title.sh`
